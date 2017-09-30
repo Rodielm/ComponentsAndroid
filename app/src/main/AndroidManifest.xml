@@ -29,7 +29,8 @@
         <activity android:name=".MyRadioGroupActivity" />
         <activity android:name=".MyPogressBarActivity" />
         <activity android:name=".MySpinnerActivity" />
-        <activity android:name=".MyTimePickerActivity"></activity>
+        <activity android:name=".MyTimePickerActivity" />
+        <activity android:name=".MyDatePickerActivity"></activity>
     </application>
 
 </manifest>
