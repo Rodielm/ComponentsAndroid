@@ -37,6 +37,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btnSpinner).setOnClickListener(this);
         findViewById(R.id.btnTimePicker).setOnClickListener(this);
         findViewById(R.id.btnDatePicker).setOnClickListener(this);
+        findViewById(R.id.btnDateTimePicker).setOnClickListener(this);
+
     }
 
 
@@ -117,6 +119,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent);
                 break;
 
+            case R.id.btnDateTimePicker:
+                intent = new Intent(MainActivity.this,MyDateTimePickerActivity.class);
+                startActivity(intent);
+                break;
             default:
                 break;
         }

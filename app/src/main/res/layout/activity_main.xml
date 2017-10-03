@@ -113,10 +113,11 @@
             android:text="DatePicker"/>
 
         <Button
+            android:id="@+id/btnDateTimePicker"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Button 15"/>
+            android:text="Date/Time Picker"/>
     </LinearLayout>
 
 </ScrollView>

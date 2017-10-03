@@ -30,7 +30,8 @@
         <activity android:name=".MyPogressBarActivity" />
         <activity android:name=".MySpinnerActivity" />
         <activity android:name=".MyTimePickerActivity" />
-        <activity android:name=".MyDatePickerActivity"></activity>
+        <activity android:name=".MyDatePickerActivity" />
+        <activity android:name=".MyDateTimePickerActivity"></activity>
     </application>
 
 </manifest>
